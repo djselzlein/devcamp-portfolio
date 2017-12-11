@@ -16,12 +16,26 @@ end
 
 puts "10 blog posts created..."
 
-5.times do |x|
-  Skill.create!(
-    title: "Rails #{x}",
-    percent_utilized: 15
-  )
-end
+Skill.create!(
+  title: "Rails",
+  percent_utilized: 30
+)
+Skill.create!(
+  title: "Spring",
+  percent_utilized: 30
+)
+Skill.create!(
+  title: "Javascript",
+  percent_utilized: 15
+)
+Skill.create!(
+  title: "HTML",
+  percent_utilized: 13
+)
+Skill.create!(
+  title: "SQL",
+  percent_utilized: 12
+)
 
 puts "5 skills created..."
 
